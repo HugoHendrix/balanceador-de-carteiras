@@ -1,5 +1,4 @@
-// FIX: Import React to make React.ReactNode available.
-import React from 'react';
+import type { ReactNode } from 'react';
 
 export interface Asset {
   id: string;
@@ -16,7 +15,7 @@ export interface Asset {
 export interface AssetCategory {
   id: string;
   name: string;
-  icon: React.ReactNode;
+  icon: ReactNode;
   assets: Asset[];
   totalValue: number;
   variation: number;
