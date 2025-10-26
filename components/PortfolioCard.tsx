@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import type { AssetCategory } from '../types';
-import { currencyFormatter, percentageFormatter } from '../utils/formatters';
-import AssetTable from './AssetTable';
+import type { AssetCategory } from '../types.ts';
+import { currencyFormatter, percentageFormatter } from '../utils/formatters.ts';
+import AssetTable from './AssetTable.tsx';
 
 interface PortfolioCardProps {
   category: AssetCategory;

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ClockIcon, SparklesIcon } from './icons';
+import { ClockIcon, SparklesIcon } from './icons.tsx';
 
 const Header: React.FC = () => {
   const [time, setTime] = useState(new Date());

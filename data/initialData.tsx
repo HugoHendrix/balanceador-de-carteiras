@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Portfolio } from '../types';
-import { StockIcon, FiiIcon, CryptoIcon, EtfIcon, TreasuryIcon, FixedIncomeIcon } from '../components/icons';
+import type { Portfolio } from '../types.ts';
+import { StockIcon, FiiIcon, CryptoIcon, EtfIcon, TreasuryIcon, FixedIncomeIcon } from '../components/icons.tsx';
 
 export const initialPortfolio: Portfolio = {
   stocks: {

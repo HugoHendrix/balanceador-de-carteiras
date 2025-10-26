@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import type { Portfolio, RebalancingSuggestion, AssetCategory, SimplifiedAsset } from '../types';
+import type { Portfolio, RebalancingSuggestion, AssetCategory, SimplifiedAsset } from '../types.ts';
 
 let ai: GoogleGenAI | null = null;
 

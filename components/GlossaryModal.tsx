@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
-import { glossaryData } from '../data/glossaryData';
-import { BookOpenIcon, XIcon } from './icons';
+import { glossaryData } from '../data/glossaryData.ts';
+import { BookOpenIcon, XIcon } from './icons.tsx';
 
 interface GlossaryModalProps {
     isOpen: boolean;

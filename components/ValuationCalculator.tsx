@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { calculateBazinPrice, calculateGrahamPrice, calculateMarginOfSafety } from '../services/valuationService';
-import { generateValuationAnalysis } from '../services/geminiService';
-import { currencyFormatter, percentageFormatter } from '../utils/formatters';
-import { CalculatorIcon, BookOpenIcon, CheckCircleIcon, ExclamationTriangleIcon, XCircleIcon } from './icons';
+import { calculateBazinPrice, calculateGrahamPrice, calculateMarginOfSafety } from '../services/valuationService.ts';
+import { generateValuationAnalysis } from '../services/geminiService.ts';
+import { currencyFormatter, percentageFormatter } from '../utils/formatters.ts';
+import { CalculatorIcon, BookOpenIcon, CheckCircleIcon, ExclamationTriangleIcon, XCircleIcon } from './icons.tsx';
 
 interface AnalysisResult {
     bazinPrice: number;

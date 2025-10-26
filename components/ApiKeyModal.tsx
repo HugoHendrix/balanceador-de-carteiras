@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { SparklesIcon } from './icons';
+import { SparklesIcon } from './icons.tsx';
 
 interface ApiKeyModalProps {
     onApiKeySubmit: (key: string) => void;

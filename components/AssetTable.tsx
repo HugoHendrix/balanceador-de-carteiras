@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Asset } from '../types';
-import { currencyFormatter, usdCurrencyFormatter, percentageFormatter } from '../utils/formatters';
+import type { Asset } from '../types.ts';
+import { currencyFormatter, usdCurrencyFormatter, percentageFormatter } from '../utils/formatters.ts';
 
 interface AssetTableProps {
   assets: Asset[];

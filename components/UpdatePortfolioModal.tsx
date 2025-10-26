@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { Portfolio, SimplifiedAsset, Asset } from '../types';
-import { parsePortfolioData } from '../services/geminiService';
+import type { Portfolio, SimplifiedAsset, Asset } from '../types.ts';
+import { parsePortfolioData } from '../services/geminiService.ts';
 
 interface UpdatePortfolioModalProps {
     isOpen: boolean;

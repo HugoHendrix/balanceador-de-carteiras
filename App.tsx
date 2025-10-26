@@ -1,17 +1,17 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { initialPortfolio } from './data/initialData';
-import type { Portfolio, AssetCategory } from './types';
-import Header from './components/Header';
-import PortfolioCard from './components/PortfolioCard';
-import RebalancingAdvisor from './components/RebalancingAdvisor';
-import ValuationCalculator from './components/ValuationCalculator';
-import UpdatePortfolioModal from './components/UpdatePortfolioModal';
-import GlossaryModal from './components/GlossaryModal';
-import ApiKeyModal from './components/ApiKeyModal'; // Import the new modal
-import { initAi } from './services/geminiService'; // Import the AI initializer
-import { currencyFormatter } from './utils/formatters';
-import { UploadIcon, BookOpenIcon } from './components/icons';
+import { initialPortfolio } from './data/initialData.tsx';
+import type { Portfolio, AssetCategory } from './types.ts';
+import Header from './components/Header.tsx';
+import PortfolioCard from './components/PortfolioCard.tsx';
+import RebalancingAdvisor from './components/RebalancingAdvisor.tsx';
+import ValuationCalculator from './components/ValuationCalculator.tsx';
+import UpdatePortfolioModal from './components/UpdatePortfolioModal.tsx';
+import GlossaryModal from './components/GlossaryModal.tsx';
+import ApiKeyModal from './components/ApiKeyModal.tsx'; // Import the new modal
+import { initAi } from './services/geminiService.ts'; // Import the AI initializer
+import { currencyFormatter } from './utils/formatters.ts';
+import { UploadIcon, BookOpenIcon } from './components/icons.tsx';
 
 const App: React.FC = () => {
   const [portfolio, setPortfolio] = useState<Portfolio>(initialPortfolio);
