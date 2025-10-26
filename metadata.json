@@ -1,0 +1,5 @@
+{
+  "name": "Balanceador de Carteira Inteligente Versão WEB",
+  "description": "Uma aplicação web para ajudar investidores a visualizar, gerenciar e rebalancear sua carteira de investimentos com sugestões personalizadas de uma IA.",
+  "requestFramePermissions": []
+}
